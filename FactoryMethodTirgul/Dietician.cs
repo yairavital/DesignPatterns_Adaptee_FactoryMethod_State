@@ -25,8 +25,9 @@ namespace FactoryMethodTirgul
      
         public double IBMCalulator(double weight, double height)
         {
-            double d = (weight / height);
-            return Math.Pow(d, 2);
+            double d = Math.Pow(height , 2);
+            return (weight / d);
+          
 
         }
     }
